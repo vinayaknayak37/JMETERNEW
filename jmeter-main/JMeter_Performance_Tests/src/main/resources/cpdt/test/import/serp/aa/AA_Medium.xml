@@ -1,0 +1,2698 @@
+<?xml version="1.0" ?>
+<MailingPlanHeader Id="E500531782">
+	<SrvOffering>X</SrvOffering>
+	<SrvOption>LCP</SrvOption>
+	<Size>SL</Size>
+	<DMC>D</DMC>
+	<CustRef/>
+	<SERPVendorInfo>
+		<Name>iAddress</Name>
+		<Version>5.0</Version>
+		<ExpiryDate>2017-12-31</ExpiryDate>
+	</SERPVendorInfo>
+	<Deposit>
+		<LocationSeqNumber>1</LocationSeqNumber>
+<DepositDate>2017-12-20</DepositDate>
+		<DailyShipmentNumber>1</DailyShipmentNumber>
+		<Burst>
+			<PostalCode>H0B9Z0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>3</NumberOfContainers>
+			<NumberOfGroupings>47</NumberOfGroupings>
+			<Container>
+				<ContainerId>XHBZ090055005317826001740203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>18</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>210</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G9A1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>211</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G9A4X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>212</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0X9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>213</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J1H1R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>214</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J1H1R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>215</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J1X1Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>216</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0B9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>217</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J2B1H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>218</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J2G2W0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>219</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0E9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>220</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J3P1C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>221</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J2S3A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>222</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J3B6V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>223</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>224</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J5T1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>225</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J6E3H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>226</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0K9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>227</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0K9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XHBZ090055005317826001830203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>16</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>228</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J3G2M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>229</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J3L1W0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>230</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J3V1Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>231</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J3Y3R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>232</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J4B5B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>233</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J5R1V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>234</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J6J3X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>235</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J7V2K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>236</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0L9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>237</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0L9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>238</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J6A2C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>239</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J6X4J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>240</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J6X5J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>241</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J7A3N0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>242</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J7E3K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>35</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>243</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J7N1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XHBZ090055005317826001920203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>13</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>244</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J7P2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>245</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0N9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>246</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J7Z5L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>247</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J0R1R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>248</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0R9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>34</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>249</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J6S2M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>250</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0S9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>251</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J8E1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>252</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0T9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>253</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0W9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>254</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0Y9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>255</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J9X3E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>256</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>H0B9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>33</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>H0K9Z0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>1</NumberOfContainers>
+			<NumberOfGroupings>18</NumberOfGroupings>
+			<Container>
+				<ContainerId>XHKZ090055005317826002170203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>18</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>267</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0E9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>268</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G4R2W0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>269</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0H9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>270</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>271</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0L9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>272</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G5Y1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>273</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0M9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>274</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0N9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>275</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0R9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>276</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0S9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>277</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G3A1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>278</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G5A1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>279</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0T9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>280</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G7H3A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>281</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G7T1B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>282</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>G0W9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>283</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>H0K9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>284</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>H0K9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>H3C1S0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>4</NumberOfContainers>
+			<NumberOfGroupings>46</NumberOfGroupings>
+			<Container>
+				<ContainerId>XHCS310055005317826001380203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>12</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>164</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H1B4A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>165</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H1H4B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>166</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H1K3W0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>33</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>167</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H1N1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>31</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>168</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H1P1X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>169</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H1V1K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>170</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H1X1R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>30</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>171</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H2A3B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>33</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>172</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H2H1V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>173</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H2H1V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>26</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>174</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H2P1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>175</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H2S2R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>30</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XHCS310055005317826001470203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>14</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>176</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H3C2H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>177</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H3C2H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>178</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H3C4B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>179</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H3L2S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>30</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>180</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H3S1J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>181</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H3S1J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>182</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H3X2H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>183</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4A1X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>184</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4A1X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>185</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4C1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>186</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4C1J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>187</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4E3H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>188</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4G2M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>189</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4T1C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XHCS310055005317826001560203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>15</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>190</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4T1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>191</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H4V1H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>192</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H7E3M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>193</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H7L3S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>194</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H7L3T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>195</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H7N2T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>30</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>196</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H7P1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>197</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H7P1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>198</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H8N1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>199</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H8R1X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>200</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H8Y2N0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>201</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H9H4K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>202</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H9R2V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>203</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H9R2V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>204</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>H9W2Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XHCS310055005317826001650203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>5</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>205</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J4H3L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>206</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J4K1V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>207</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J4K1V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>208</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J4W1T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>209</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J4W3T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>29</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>H6K3W0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>1</NumberOfContainers>
+			<NumberOfGroupings>10</NumberOfGroupings>
+			<Container>
+				<ContainerId>XHKW630055005317826002080203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>10</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>257</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G1E5A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>258</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G1H1J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>35</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>259</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G1L1N0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>260</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G1N4C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>261</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G1N4C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>262</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G1X3V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>263</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G2B1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>264</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G2C2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>265</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G2E3J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>266</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>G6V3P0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>K0A9Z0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>2</NumberOfContainers>
+			<NumberOfGroupings>18</NumberOfGroupings>
+			<Container>
+				<ContainerId>XKAZ090055005317826000220203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>16</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>25</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J8P5B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>26</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J8Y6N0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>29</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>27</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>J9H3L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>28</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>J0X9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>29</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K4M1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>30</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K7S1S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>31</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0A9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>32</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0A9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>33</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0C9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>34</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0E9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>35</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0G9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>36</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K7L1X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>37</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K7M5E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>38</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0H9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>39</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>40</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0K9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>28</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XKAZ090055005317826000310203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>2</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>41</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K9J2T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>42</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>K0L9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>K1G0A0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>2</NumberOfContainers>
+			<NumberOfGroupings>24</NumberOfGroupings>
+			<Container>
+				<ContainerId>XKGA100055005317826000040203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>13</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>1</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1B1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>2</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1B1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>3</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1B3E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>4</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1B3E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>5</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1C1L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>6</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1G2C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>7</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1G2C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>8</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1G5E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>9</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1G5E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>10</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1G7S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>26</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>11</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1G7S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>12</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1L5A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>31</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>13</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1L5A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XKGA100055005317826000130203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>11</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>14</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1L5A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>15</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K1Y1H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>16</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2A0A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>17</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2A0A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>18</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2G4V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>26</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>19</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2G4V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>26</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>20</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2H5Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>21</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2J1T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>22</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2K1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>23</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K2S1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>24</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>K4A1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>L0J9Z0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>1</NumberOfContainers>
+			<NumberOfGroupings>11</NumberOfGroupings>
+			<Container>
+				<ContainerId>XLJZ090055005317826000770203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>11</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>93</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>L0G9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>94</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L4N3V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>95</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>L0M9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>96</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>L0M9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>97</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L9T1P0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>98</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>L0P9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>99</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>L0P9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>100</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>L0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>101</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>L0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>102</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>L0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>103</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>L0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>L0R9Z0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>1</NumberOfContainers>
+			<NumberOfGroupings>10</NumberOfGroupings>
+			<Container>
+				<ContainerId>XLRZ090055005317826000860203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>10</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>104</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>L0R9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>105</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L2E2L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>106</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L2M3Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>107</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L2N4H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>108</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L7R2H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>109</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L8E2K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>110</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L8L2Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>111</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L9C3B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>112</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L9G4V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>31</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>113</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>L0R9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>L4W1T0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>3</NumberOfContainers>
+			<NumberOfGroupings>50</NumberOfGroupings>
+			<Container>
+				<ContainerId>XLWT410055005317826000400203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>22</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>43</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L1H0A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>44</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L1H4G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>45</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L1V1C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>46</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L1Z1L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>47</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L3R3K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>48</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L3T2C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>49</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L4C3R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>50</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L4L1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>51</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L4Y2A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>52</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L5A2G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>53</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L5E1G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>54</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L5K2L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>55</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L5N5A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>56</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L5N5M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>57</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L6J1N0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>58</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L6L2X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>59</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L6W1B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>60</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>L7A1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>61</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M1B3C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>62</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M1E2P0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>63</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M1K2M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>64</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M1W2K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XLWT410055005317826000590203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>18</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>65</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M2H1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>66</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M2K1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>67</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M2N1K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>68</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M3C2E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>69</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M3M2G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>70</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4C1L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>71</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4G3T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>72</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4J1L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>30</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>73</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4M1H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>74</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4P2E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>23</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>75</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4P2E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>76</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4T1L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>77</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4T1L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>78</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4W3N0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>79</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M4Y1T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>80</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M5J1C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>81</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M5J1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>82</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M5M3Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XLWT410055005317826000680203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>10</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>83</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M5S2J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>84</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M5T2C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>85</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M6E2W0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>86</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M6H2X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>30</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>87</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M6J1J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>88</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M6P2K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>89</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M6S1P0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>90</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M8Z1P0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>91</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M9A1B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>92</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>M9N1X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>O0O0O0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>4</NumberOfContainers>
+			<NumberOfGroupings>66</NumberOfGroupings>
+			<Container>
+				<ContainerId>XOOO000055005317826002260203</ContainerId>
+				<LevelOfAccess>RES</LevelOfAccess>
+				<GroupingsInContainer>21</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>285</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>A1B3R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>286</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>B0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>287</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>B0P9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>288</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>B3K1V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>289</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>B3K1W0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>290</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>B0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>33</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>291</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>E0G9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>292</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>E3B2L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>293</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>E0A9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>294</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>N0B9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>295</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>N0H9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>296</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N1H1B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>297</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N2E1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>298</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N2H1Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>299</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>N0B9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>300</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>N0L9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>301</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N5Y2A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>302</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N6B2L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>303</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N6C5T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>304</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N6H4S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>305</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N7T2M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XOOO000055005317826002350203</ContainerId>
+				<LevelOfAccess>RES</LevelOfAccess>
+				<GroupingsInContainer>19</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>306</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>N0L9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>307</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>N8W3T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>308</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>N0R9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>309</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>P0M9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>310</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>P0M9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>311</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>P7B2W0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>312</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>P0T9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>313</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>R2M0A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>314</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>R3G1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>315</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>R3N0G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>316</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>R3T1C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>317</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>R0C9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>29</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>318</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>R0C9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>29</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>319</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>R0C9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>30</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>320</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>S4S2R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>321</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>S0G9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>322</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>S7N2S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>323</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>S0K9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>324</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0J9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XOOO000055005317826002440203</ContainerId>
+				<LevelOfAccess>RES</LevelOfAccess>
+				<GroupingsInContainer>20</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>325</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>Y1A2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>326</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T6E2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>327</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T8N1E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>328</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>T0N9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>329</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>T0N9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>330</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>T0N9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>331</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0E9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>332</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V1Y7E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>333</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0H9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>334</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0T9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>335</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0T9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>336</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>V0T9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>337</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>V0T9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>26</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>338</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>T0K9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>339</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>T0L9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>340</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>T0M9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>341</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0G9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>342</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T2E2K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>343</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T2E2M0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>344</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T2H2T0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XOOO000055005317826002530203</ContainerId>
+				<LevelOfAccess>RES</LevelOfAccess>
+				<GroupingsInContainer>6</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>345</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T2V1K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>346</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T3B0G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>347</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>T3B4A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>348</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>T0S9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>349</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>T0S9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>350</Identifier>
+					<ServiceDescription>RES</ServiceDescription>
+					<PostalCode>M4L1A5</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>V0S9Z0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>1</NumberOfContainers>
+			<NumberOfGroupings>10</NumberOfGroupings>
+			<Container>
+				<ContainerId>XVSZ090055005317826000950203</ContainerId>
+				<LevelOfAccess>FCP</LevelOfAccess>
+				<GroupingsInContainer>10</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>114</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V8K1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>115</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V9N1G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>116</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V9S5L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>11</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>117</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0S9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>118</Identifier>
+					<ServiceDescription>DCF</ServiceDescription>
+					<PostalCode>V0S9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>119</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V8P4G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>120</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V8R1H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>121</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V8T5G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>122</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V8Y1A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>123</Identifier>
+					<ServiceDescription>FCP</ServiceDescription>
+					<PostalCode>V0S9Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+		<Burst>
+			<PostalCode>V6B3A0</PostalCode>
+			<Weight>20.00</Weight>
+			<NumberOfContainers>3</NumberOfContainers>
+			<NumberOfGroupings>40</NumberOfGroupings>
+			<Container>
+				<ContainerId>XVBA630055005317826001010203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>16</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>124</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V2S3J0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>125</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V2X2R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>25</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>126</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3A4B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>127</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3C2A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>24</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>128</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3J1S0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>129</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3L1Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>130</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3L1Y0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>131</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3S7X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>31</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>132</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3T5G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>133</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V3W5V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>134</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V4A2H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>135</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V4A2H0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>28</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>136</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V4C3R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>137</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V4K1V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>138</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V4M2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>14</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>139</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5B3A0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XVBA630055005317826001100203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>16</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>140</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5C4N0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>8</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>141</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5H3B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>142</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5K2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>143</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5N4B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>144</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5R5L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>13</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>145</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5T1Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>17</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>146</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5W2Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>12</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>147</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V5Y1R0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>148</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6B2X0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>34</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>149</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6J3E0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>31</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>150</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6K4P0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>32</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>151</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6M2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>28</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>152</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6P5Z0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>16</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>153</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6R2G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>19</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>154</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6R2G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>20</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>155</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6X2G0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>9</Pieces>
+				</Grouping>
+			</Container>
+			<Container>
+				<ContainerId>XVBA630055005317826001290203</ContainerId>
+				<LevelOfAccess>CITY</LevelOfAccess>
+				<GroupingsInContainer>8</GroupingsInContainer>
+				<ContainerType>HL</ContainerType>
+				<Grouping>
+					<Identifier>156</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V6Y3K0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>10</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>157</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V7A4V0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>26</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>158</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V7H2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>15</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>159</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V7L2B0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>27</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>160</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V7P2L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>161</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V7P2L0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>18</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>162</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V7V2C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>21</Pieces>
+				</Grouping>
+				<Grouping>
+					<Identifier>163</Identifier>
+					<ServiceDescription>DF</ServiceDescription>
+					<PostalCode>V7V2C0</PostalCode>
+					<DeliveryModeDetails> </DeliveryModeDetails>
+					<Pieces>22</Pieces>
+				</Grouping>
+			</Container>
+		</Burst>
+	</Deposit>
+</MailingPlanHeader>
+
+

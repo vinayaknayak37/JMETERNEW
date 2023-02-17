@@ -1,0 +1,2 @@
+!!! You need a copy of javax.annotation-api-1.2.jar file to be placed in this folder.   !!!
+!!! Your EST Desktop performance test will not run without this file.                   !!!

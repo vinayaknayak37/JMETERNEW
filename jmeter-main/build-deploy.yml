@@ -1,0 +1,330 @@
+# Docker
+# Build and push an image to Azure Container Registry
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
+
+trigger:
+  - main
+  - releases/*
+
+resources:
+  - repo: self
+
+parameters:
+  # Possible versions for OpenJDK can be found in: https://hub.docker.com/_/openjdk/
+  - name: JDKVersion
+    type: string
+    default: 11
+    values:
+      - 1.8.0
+      - 11
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+  # Possible versions for JMeter can be found in: https://archive.apache.org/dist/jmeter/binaries/
+  - name: JMeterVersion
+    type: string
+    default: 5.4.3
+    values:
+      - 5.2.1
+      - 5.3
+      - 5.4
+      - 5.4.3
+  # Possible versions for AppInsights can be found in: https://repo1.maven.org/maven2/com/microsoft/azure/applicationinsights-core/
+  - name: AppInsightsVersion
+    type: string
+    default: 2.5.1
+    values:
+      - 2.5.1
+      - 2.6.0
+      - 2.6.1
+      - 2.6.2
+      - 2.6.3
+  - name: projectName
+    type: string
+    default: estdt
+  - name: projectVersion
+    type: string
+    default: 1.0
+  - name: nReplicas
+    type: number
+    default: 2
+    values:
+      - 1
+      - 2
+      - 4
+      - 8
+      - 10
+      - 16
+  - name: perfTestName
+    type: string
+    default: EST_DT_Sanity_Test.jmx
+    values:
+      - EST_DT_Sanity_Test.jmx
+      - EST_DT_Sanity_Test_2.jmx
+      - EST_DT_Perf_Test.jmx
+      - EST_DT_Login_Test.jmx
+  - name: buildIdToDeploy
+    type: string
+    default: default
+  - name: runPerfTests
+    type: boolean
+    default: true
+  # Possible versions for log4j can be found in: https://repo1.maven.org/maven2/org/apache/logging/log4j
+  - name: Log4jVersion
+    type: string
+    default: 2.17.1
+    values:
+      - 2.16.0
+      - 2.17.0
+      - 2.17.1
+
+variables:
+  # service principal used in the pipeline
+  perfDeploySP: 'az-sp-pipeline-tools-npd-001-perf-deploy'
+  perfSubscriptionId: '331b63ef-1fb2-456b-86c0-61136ee6acaa'
+  perfRGName: 'rg-cc-npd-performance-001'
+  perfStorageAccount: 'stnpdccperformance001'
+  # Container registry service connection established during pipeline creation
+  dockerRegistryServiceConnection: 'az-sc-docker-registry'
+  imageRepository: 'repo-perf-${{ parameters.projectName }}'
+  containerRegistry: 'acrnpdcctoolsperf001.azurecr.io'
+  dockerfilePath: '$(Build.SourcesDirectory)/Docker/Dockerfile'
+  tag: '$(Build.BuildId)'
+  perfTestName: ${{ parameters.perfTestName }}
+  nReplicas: ${{ parameters.nReplicas }}
+  buildToDeploy: ${{ parameters.buildIdToDeploy }}
+  projectName: ${{ parameters.projectName }}
+  projectVersion: ${{ parameters.projectVersion }}
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
+  # storage configuration
+  volumeAccountName: 'stnpdccperformance001'
+  volumeShareName: 'fsh-perf-${{ parameters.projectName }}'
+  volumeMountPath: '/mnt/azfsh/perf-${{ parameters.projectName }}'
+  laWorkspaceName: 'laws-npd-perf-${{ parameters.projectName }}-001'
+  appInsightsName: 'insights-npd-perf-${{ parameters.projectName }}-001'
+  perfSubnet: /subscriptions/331b63ef-1fb2-456b-86c0-61136ee6acaa/resourceGroups/rg-cc-npd-sharedservices-001/providers/Microsoft.Network/virtualNetworks/vnet-npd-cc-tools-002/subnets/snet-npd-cc-performance-003
+  perfVNet: /subscriptions/331b63ef-1fb2-456b-86c0-61136ee6acaa/resourceGroups/rg-cc-npd-sharedservices-001/providers/Microsoft.Network/virtualNetworks/vnet-npd-cc-tools-002
+  jdkVersion: ${{ parameters.JDKVersion }}
+  jmeterVersion: ${{ parameters.JMeterVersion }}
+  appInsightsVersion: ${{ parameters.AppInsightsVersion }}
+  jmeterBinariesMirrorSite: http://mirror.its.dal.ca/apache/jmeter/binaries
+  jmeterSHA512Site: https://dlcdn.apache.org/jmeter/binaries
+  mavenRepo: https://repo1.maven.org/maven2
+  appInsightsRepo: $(mavenRepo)/com/microsoft/azure/applicationinsights-core
+  apacheLoggingRepo: $(mavenRepo)/org/apache/logging/log4j
+  log4jVersion: ${{ parameters.Log4jVersion }}
+stages:
+  - stage: Prerequisites
+    displayName: Create Prerequisite Resources
+    jobs:
+      - job: LogAnalyticsWorkspace
+        displayName: Create Log Analytics Workspace
+        steps:
+          - task: AzureCLI@2
+            inputs:
+              azureSubscription: $(perfDeploySP)
+              scriptType: 'pscore'
+              scriptLocation: 'inlineScript'
+              inlineScript: |
+                az account set --subscription $(perfSubscriptionId)
+                az deployment group create --resource-group $(perfRGName) `
+                --name $(laWorkspaceName) `
+                --parameters workspaceName=$(laWorkspaceName) perfTestName=$(projectName) `
+                --template-file templates/log-analytics-workspace-template.json
+      - job: ApplicationInsights
+        displayName: Create Application Insights instance
+        steps:
+          - task: AzureCLI@2
+            inputs:
+              azureSubscription: $(perfDeploySP)
+              scriptType: 'pscore'
+              scriptLocation: 'inlineScript'
+              inlineScript: |
+                az account set --subscription $(perfSubscriptionId)
+                az extension add -n application-insights
+                az monitor app-insights component create --app $(appInsightsName) `
+                --location canadacentral --kind web --resource-group $(perfRGName) `
+                --workspace "/subscriptions/$(perfSubscriptionId)/resourcegroups/$(perfRGName)/providers/microsoft.operationalinsights/workspaces/$(laWorkspaceName)" `
+                --tags PerfTest=$(projectName)
+      - job: FileShare
+        displayName: Create File Share
+        steps:
+          - task: AzureCLI@2
+            inputs:
+              azureSubscription: $(perfDeploySP)
+              scriptType: 'pscore'
+              scriptLocation: 'inlineScript'
+              inlineScript: |
+                az account set --subscription $(perfSubscriptionId)
+                az storage share-rm create --resource-group $(perfRGName) --storage-account $(volumeAccountName) `
+                --name $(volumeShareName)  --access-tier "Cool" --quota 10
+      - job: ValidatePackages
+        displayName: Validate third-party packages
+        steps:
+          - task: CmdLine@2
+            inputs:
+              script: |
+                # Download JMeter package and calculate its SHA512 value
+                curl $(jmeterBinariesMirrorSite)/apache-jmeter-$(jmeterVersion).tgz -o /tmp/apache-jmeter.tgz
+                sha512sum /tmp/apache-jmeter.tgz | cut -f1 -d" " > /tmp/calc-apache-jmeter.tgz.sha512
+                # Download the original SHA512 value of this package
+                curl $(jmeterSHA512Site)/apache-jmeter-$(jmeterVersion).tgz.sha512 -o /tmp/orig-apache-jmeter-$(jmeterVersion).tgz.sha512
+                cat /tmp/orig-apache-jmeter-$(jmeterVersion).tgz.sha512 | cut -f1 -d" " > /tmp/orig-sha512
+                # Compare the two SHA512 values to make sure that they match. Exit if they do *not* match!
+                _tempDiffResult_=`diff /tmp/calc-apache-jmeter.tgz.sha512 /tmp/orig-sha512`
+                if [ "$_tempDiffResult_" != "" ]; then
+                  echo "Unable to validate 3rd party package: apache-jmeter-$(jmeterVersion).tgz"
+                  exit 1
+                fi
+          - task: CmdLine@2
+            inputs:
+              script: |
+                # Download ApplicationInsights package and calculate its SHA1 value
+                curl $(appInsightsRepo)/$(appInsightsVersion)/applicationinsights-core-$(appInsightsVersion).jar -o /tmp/appinsights-core.jar
+                sha1sum /tmp/appinsights-core.jar | cut -f1 -d" " > /tmp/calc-appinsights.sha1
+                # Download the original SHA1 value of this package
+                curl $(appInsightsRepo)/$(appInsightsVersion)/applicationinsights-core-$(appInsightsVersion).jar.sha1 -o /tmp/orig-appinsights.sha1
+                cat /tmp/orig-appinsights.sha1 | cut -f1 -d" " > /tmp/orig-sha1
+                # Compare the two SHA1 values to make sure that they match. Exit if they do *not* match!
+                _tempDiffResult_=`diff /tmp/calc-appinsights.sha1 /tmp/orig-sha1`
+                if [ "$_tempDiffResult_" != "" ]; then
+                  echo "Unable to validate 3rd party package: applicationinsights-core-$(appInsightsVersion).jar"
+                  exit 1
+                fi
+          - task: CmdLine@2
+            inputs:
+              script: |
+                # Download log4j-api, log4j-core, and log4j-slf4j-impl packages and calculate their respective SHA1 values
+                for _l4j_ in "log4j-api" "log4j-core" "log4j-slf4j-impl" "log4j-1.2-api";
+                do
+                  echo Processing $f ;
+                  curl $(apacheLoggingRepo)/$_l4j_/$(log4jVersion)/$_l4j_-$(log4jVersion).jar -o /tmp/$_l4j_-$(log4jVersion).jar
+                  sha1sum /tmp/$_l4j_-$(log4jVersion).jar | cut -f1 -d" " > /tmp/calc-$_l4j_.sha1
+                  # Download the original SHA1 value of this package
+                  curl $(apacheLoggingRepo)/$_l4j_/$(log4jVersion)/$_l4j_-$(log4jVersion).jar.sha1 -o /tmp/$_l4j_-$(log4jVersion).jar.sha1
+                  cat /tmp/$_l4j_-$(log4jVersion).jar.sha1 | cut -f1 -d" " > /tmp/orig-sha1
+                  # Compare the two SHA1 values to make sure that they match. Exit if they do *not* match!
+                  _tempDiffResult_=`diff /tmp/calc-$_l4j_.sha1 /tmp/orig-sha1`
+                  if [ "$_tempDiffResult_" != "" ]; then
+                    echo "Unable to validate 3rd party package: $_l4j_-$(log4jVersion).jar"
+                    exit 1
+                  fi
+                done;
+
+  - stage: Build
+    displayName: Build and push stage
+    jobs:
+      - job: Build
+        displayName: Build
+        pool:
+          vmImage: $(vmImageName)
+        steps:
+          - script: |
+              echo "BuildID:" $(Build.BuildId)
+              echo "imageRepository: " $(imageRepository)
+              echo "replicas: " $(nReplicas)
+          #
+          # Enable this task to build the $(projectName)-$(projectVersion).zip
+          # This zip file contains the JMeter test scripts, test data, and the startUp.sh
+          # and shutDown.sh scripts.
+          - task: Maven@3
+            displayName: Build performance test scripts package
+            inputs:
+              mavenPomFile: '$(Build.SourcesDirectory)/JMeter_Performance_Tests/pom.xml'
+              options: "-DTEST_ARTIFACT_NAME=$(projectName) -DTEST_ARTIFACT_VERSION=$(projectVersion)"
+              publishJUnitResults: true
+              testResultsFiles: '**/surefire-reports/TEST-*.xml'
+              javaHomeOption: 'JDKVersion'
+              mavenVersionOption: 'Default'
+              mavenAuthenticateFeed: false
+              effectivePomSkip: false
+              sonarQubeRunAnalysis: false
+          #
+          # We are going to split the Azure docker buildAndPush into separate build and push tasks
+          - task: Docker@2
+            displayName: Build performance test image
+            inputs:
+              command: build
+              repository: $(imageRepository)
+              dockerfile: $(dockerfilePath)
+              containerRegistry: $(dockerRegistryServiceConnection)
+              arguments: '--build-arg JDK_VERSION=$(jdkVersion) --build-arg JMETER_VERSION=$(jmeterVersion) --build-arg APPINSIGHTS_VERSION=$(appInsightsVersion) --build-arg TEST_ARTIFACT_NAME=$(projectName) --build-arg TEST_ARTFIFACT_VERSION=$(projectVersion) --build-arg APPINSIGHTS_REPO=$(appInsightsRepo) --build-arg JMETER_REPO=$(jmeterBinariesMirrorSite) --build-arg LOG4J_REPO=$(apacheLoggingRepo) --build-arg LOG4J_VERSION=$(log4jVersion)'
+              tags: |
+                $(tag)
+          - task: Docker@2
+            displayName: Push an image to container registry
+            inputs:
+              command: push
+              repository: $(imageRepository)
+              containerRegistry: $(dockerRegistryServiceConnection)
+              tags: |
+                $(tag)
+  - stage: DeployContainers
+    displayName: Deploy Containers
+    dependsOn: Build
+    jobs:
+      - job: DeployContainers
+        steps:
+          - task: AzureCLI@2
+            name: DeployAndTest
+            inputs:
+              azureSubscription: $(perfDeploySP)
+              scriptType: 'pscore'
+              scriptLocation: 'inlineScript'
+              arguments: $(buildToDeploy)
+              inlineScript: |
+                az account set --subscription $(perfSubscriptionId)
+                $_instrumentationKey_=az resource show -g $(perfRGName) -n $(appInsightsName) --resource-type "microsoft.insights/components" --query properties.InstrumentationKey
+                $_testName_=[System.Io.Path]::GetFileNameWithoutExtension("$(perfTestName)")
+                $_buildToDeploy_=$args[0]
+                if ( '$_buildToDeploy_' -eq 'default' ) {
+                  $_buildToDeploy_=$(Build.BuildId)
+                } else {
+                  if ( $_buildToDeploy_ -gt $(Build.BuildId) ) {
+                    $_buildToDeploy_=$(Build.BuildId)
+                  }
+                }
+                $_sharedDate_=(Get-Date).toString("yyyyMMddHHmmss")
+                echo "... instrumentation key: $_instrumentationKey_"
+                $_acrPerfUserName_=az keyvault secret show --name ACRPerfUserName --vault-name kv-cc-cpd-perf-001 --query "value"
+                $_acrPerfPwd_=az keyvault secret show --name ACRPerfPwd --vault-name kv-cc-cpd-perf-001 --query "value"
+                $_volumeAccountKey_=az storage account keys list -g $(perfRGName) --account-name $(perfStorageAccount) --query "[0].value" --output tsv
+                for ($_num_ = 1 ; $_num_ -lt $(nReplicas) ; $_num_++){
+                  $_containerName_="$(projectName)-worker-$_num_-$_sharedDate_"
+                  az container create  --name $_containerName_ `
+                  --resource-group $(perfRGName) --subscription $(perfSubscriptionId) `
+                  -e HOSTNAME=$_containerName_ TEST_NAME=$(perfTestName) TEST_RESULTS=$_testName_-results `
+                  REPLICAS=$(nReplicas) SH_STORAGE=$(volumeMountPath)/$_testName_/$_sharedDate_ `
+                  INSTR_KEY=$_instrumentationKey_  --restart-policy never `
+                  --image $(containerRegistry)/$(imageRepository):$_buildToDeploy_ `
+                  --registry-login-server $(containerRegistry) --registry-username $_acrPerfUserName_ `
+                  --registry-password $_acrPerfPwd_ --subnet $(perfSubnet) `
+                  --vnet $(perfVNet) --ports 443 1099 50000 60000 --protocol TCP `
+                  --azure-file-volume-account-name $(volumeAccountName) `
+                  --azure-file-volume-account-key $_volumeAccountKey_ `
+                  --azure-file-volume-share-name $(volumeShareName) `
+                  --azure-file-volume-mount-path $(volumeMountPath)
+                  az tag update --operation Merge --resource-id "/subscriptions/$(perfSubscriptionId)/resourceGroups/$(perfRGName)/providers/Microsoft.ContainerInstance/containerGroups/$_containerName_" `
+                  --tags PerfTest=$(projectName)
+                }
+                $_containerName_="$(projectName)-controller-$_num_-$_sharedDate_"
+                az container create  --name $_containerName_ `
+                --resource-group $(perfRGName) --subscription $(perfSubscriptionId) `
+                -e HOSTNAME=$_containerName_ TEST_NAME=$(perfTestName) TEST_RESULTS=$_testName_-results `
+                REPLICAS=$(nReplicas) SH_STORAGE=$(volumeMountPath)/$_testName_/$_sharedDate_ `
+                INSTR_KEY=$_instrumentationKey_ --restart-policy never `
+                --image $(containerRegistry)/$(imageRepository):$_buildToDeploy_ `
+                --registry-login-server $(containerRegistry) --registry-username $_acrPerfUserName_ `
+                --registry-password $_acrPerfPwd_ --subnet $(perfSubnet) `
+                --vnet $(perfVNet) --ports 443 1099 50000 60000 --protocol TCP `
+                --azure-file-volume-account-name $(volumeAccountName) `
+                --azure-file-volume-account-key $_volumeAccountKey_ `
+                --azure-file-volume-share-name $(volumeShareName) `
+                --azure-file-volume-mount-path $(volumeMountPath)
+                az tag update --operation Merge --resource-id "/subscriptions/$(perfSubscriptionId)/resourceGroups/$(perfRGName)/providers/Microsoft.ContainerInstance/containerGroups/$_containerName_" `
+                --tags PerfTest=$(projectName)
+              addSpnToEnvironment: true
+              useGlobalConfig: true
